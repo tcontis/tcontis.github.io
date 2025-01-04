@@ -45,3 +45,7 @@ rss_icon: true # set to true to show the RSS icon
 # x_username: # your X handle
 # youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 # zotero_username: # your zotero username
+wyzant :
+  logo: https://cdn-1.webcatalog.io/catalog/wyzant/wyzant-icon-filled-256.png?v=1732986622185
+  title: Wyzant
+  url: https://www.wyzant.com/match/tutor/89631772
