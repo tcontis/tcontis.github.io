@@ -77,6 +77,13 @@ ninja.data = [{
           window.open("/feed.xml", "_blank");
         },
       },{
+        id: 'social-wyzant',
+        title: 'Wyzant',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.wyzant.com/match/tutor/89631772", "_blank");
+        },
+      },{
       id: 'light-theme',
       title: 'Change theme to light',
       description: 'Change the theme of the site to Light',
