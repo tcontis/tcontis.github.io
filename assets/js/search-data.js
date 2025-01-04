@@ -30,12 +30,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
-        },{id: "nav-cv",
-          title: "cv",
+        },{id: "nav-resume",
+          title: "resume",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/cv/";
+            window.location.href = "/resume/";
           },
         },{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
