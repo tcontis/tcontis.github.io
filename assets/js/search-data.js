@@ -50,7 +50,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-wire-cutting-machine",
           title: 'Wire-Cutting Machine',
-          description: "with background image",
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/wire_cutting_machine/";
             },},{
