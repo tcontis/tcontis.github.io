@@ -2,8 +2,8 @@
   "basics": {
     "name": "Thomas Contis",
     "label": "",
-    "image": "",
-    "email": "",
+    "image": "Contis_Thomas_Headshot.JPG",
+    "email": "thomas (at) contis (dot) org",
     "url": "thomascontis.com",
     "summary": ""
   },
@@ -17,7 +17,10 @@
       "startDate": "2023-08-21",
       "endDate": "2024-12-14",
       "score": "4.00",
-      "courses": ["ECE 6254: Statistical Machine Leaning"]
+      "courses": ["ECE 6250: Advanced Digital Signal Processing", 
+                  "ECE 6254: Statistical Machine Learning",
+                  "ECE 6271: Adaptive Filtering",
+                  "ECE 6781: Biomedical Sensing Systems"]
     },
     {
       "institution": "Georgia Institute of Technology",
@@ -28,7 +31,12 @@
       "startDate": "2023-08-19",
       "endDate": "2024-05-05",
       "score": "4.00",
-      "courses": ["ECE 6271: Adaptive Filtering"]
+      "courses": ["ECE 3084: Signal & Systems",
+                  "ECE 4043: Senior Analog Electronic Laboratory",
+                  "ECE 4180: Embedded Systems Design",
+                  "ECE 4270: Fundamentals of Digital Signal Processing",
+                  "ECE 4550: Control Systems Design"
+                 ]
     }
   ],
   "awards": [
@@ -36,7 +44,7 @@
       "title": "2024 Outstanding ECE Graduate Teaching Assistant Award",
       "date": "2024-04-18",
       "awarder": "Georgia Tech School of Electrical & Computer Engineering",
-      "summary": "Student-nominated"
+      "summary": "Student-nominated award for my GTA'ing of ECE 4550: Control Systems Design"
     }
   ],
   "languages": [
