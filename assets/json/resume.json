@@ -17,10 +17,10 @@
       "startDate": "2023-08-21",
       "endDate": "2024-12-14",
       "score": "4.00",
-      "courses": ["ECE 6250: Advanced Digital Signal Processing", 
-                  "ECE 6254: Statistical Machine Learning",
-                  "ECE 6271: Adaptive Filtering",
-                  "ECE 6781: Biomedical Sensing Systems"]
+      "courses": ["<a href=\"https://ece.gatech.edu/courses/ece6250\">ECE 6250</a>: Advanced Digital Signal Processing", 
+                  "<a href=\"https://ece.gatech.edu/courses/ece6254\">ECE 6254</a>: Statistical Machine Learning",
+                  "<a href=\"https://ece.gatech.edu/courses/ece6271\">ECE 6271</a>: Adaptive Filtering",
+                  "<a href=\"https://ece.gatech.edu/courses/ece6781\">ECE 6781</a>: Biomedical Sensing Systems"]
     },
     {
       "institution": "Georgia Institute of Technology",
@@ -31,11 +31,11 @@
       "startDate": "2019-08-19",
       "endDate": "2023-05-05",
       "score": "4.00",
-      "courses": ["ECE 3084: Signal & Systems",
-                  "ECE 4043: Senior Analog Electronics Laboratory",
-                  "ECE 4180: Embedded Systems Design",
-                  "ECE 4270: Fundamentals of Digital Signal Processing",
-                  "<a href=\"https://ece.gatech.edu/courses/ece4550\"> ECE 4550 </a>: Control Systems Design"
+      "courses": ["<a href=\"https://ece.gatech.edu/courses/ece3084\">ECE 3084</a>: Signal & Systems",
+                  "<a href=\"https://ece.gatech.edu/courses/ece4043\">ECE 4043</a>: Senior Analog Electronics Laboratory",
+                  "<a href=\"https://ece.gatech.edu/courses/ece4180\">ECE 4180</a>: Embedded Systems Design",
+                  "<a href=\"https://ece.gatech.edu/courses/ece4270\">ECE 4270</a>: Fundamentals of Digital Signal Processing",
+                  "<a href=\"https://ece.gatech.edu/courses/ece4550\"> ECE 4550</a>: Control Systems Design"
                  ]
     }
   ],
