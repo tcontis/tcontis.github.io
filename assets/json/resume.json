@@ -14,7 +14,11 @@
       "startDate":"2024-05-13",
       "endDate":"2024-08-05",
       "summary":"Augmented heat-stress monitoring wearable with fall detection capabilities",
-      "highlights":["Presented potential implementations of features from competing occupational safety wearables to C-suite", "Developed IMU FIFO buffer streaming capability and Python tool for real-time visualization and data capture into Pandas DataFrames, establishing a convenient algorithm development pipeline", "Evaluated three fall detection algorithms with F2 score to reduce false negatives. Best performer now in pilot testing", "Augmented armband wearable with onboard shoulder angle computation to rival top competitor in target market", "Refactored IMU driver C code by implementing inline functions to reduce redundancy in I2C read/write operations, organizing parameters into structures, and clarifying register values with enumerations and bitmask constants"]
+      "highlights":["Presented potential implementations of features from competing occupational safety wearables to C-suite", 
+                    "Developed IMU FIFO buffer streaming capability and Python tool for real-time visualization and data capture into Pandas DataFrames, establishing a convenient algorithm development pipeline", 
+                    "Evaluated three fall detection algorithms with F2 score to reduce false negatives. Best performer now in pilot testing", 
+                    "Augmented armband wearable with onboard shoulder angle computation to rival top competitor in target market", 
+                    "Refactored IMU driver C code by implementing inline functions to reduce redundancy in I2C read/write operations, organizing parameters into structures, and clarifying register values with enumerations and bitmask constants"]
     }
   ],
   "education": [
@@ -56,6 +60,13 @@
       "date": "2024-04-18",
       "awarder": "Georgia Tech School of Electrical & Computer Engineering",
       "summary": "Student-nominated award for my GTA'ing of ECE 4550: Control Systems Design"
+    },
+    {
+      "title": "ECE Senior Scholar Award",
+      "date": "2024-04-15",
+      "awarder": "Georgia Tech School of Electrical & Computer Engineering",
+      "url": "https://ece.gatech.edu/news/2024/04/2024-roger-p-webb-awards-honor-outstanding-students-faculty-and-staff",
+      "summary": "For Highest Academic Average in the School of Electrical & Computer Engineering"     
     }
   ],
   "languages": [
