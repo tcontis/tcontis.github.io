@@ -17,7 +17,8 @@
       "startDate": "2023-08-21",
       "endDate": "2024-12-14",
       "score": "4.00",
-      "courses": ["<a href=\"https://ece.gatech.edu/courses/ece6250\">ECE 6250</a>: Advanced Digital Signal Processing", 
+      "courses": ["<a href=\"https://ece.gatech.edu/courses/ece6001\">ECE 6001</a>: Technology Entrepreneurship",
+                  "<a href=\"https://ece.gatech.edu/courses/ece6250\">ECE 6250</a>: Advanced Digital Signal Processing", 
                   "<a href=\"https://ece.gatech.edu/courses/ece6254\">ECE 6254</a>: Statistical Machine Learning",
                   "<a href=\"https://ece.gatech.edu/courses/ece6271\">ECE 6271</a>: Adaptive Filtering",
                   "<a href=\"https://ece.gatech.edu/courses/ece6781\">ECE 6781</a>: Biomedical Sensing Systems"]
