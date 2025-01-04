@@ -85,7 +85,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: Ramblin' Samplin' # blog_name will be displayed in your blog page
-blog_description: 
+blog_description: Musings of an Electrical Engineer
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
