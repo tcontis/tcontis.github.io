@@ -99,7 +99,9 @@ The system works by unspooling wire into a Bowden extruder using a stepper motor
 
 Using the [Bluefruit LE Connect App](https://learn.adafruit.com/bluefruit-le-connect/ios-setup), the user is able to control the machine using arrow or number key input. Every key press provides serial data to the Bluefruit module, which triggers an interrupt handler that records the action.
 
-A small LCD screen provides a menu interface allowing a user to intuitively toggle settings. Below is a state diagram of the control flow:
+{% include figure.liquid loading="eager" path="assets/img/control_pad.png" class="img-fluid rounded z-depth-1" %}
+
+A small LCD screen provides a menu interface allowing a user to intuitively toggle settings without the parsing hassle of text input. Below is a state diagram of the control flow:
 
 ```mermaid
 ---
