@@ -11,7 +11,7 @@ mermaid:
   zoomable: false
 pretty_table: true
 toc:
-  beginning: true
+  sidebar: left
 ---
 
 ## Motivation
