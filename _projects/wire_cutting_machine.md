@@ -17,6 +17,11 @@ toc:
 ## Motivation
 For our [ECE 4180 (Embedded Systems Design)](https://ece.gatech.edu/courses/ece4180) final project, two teammates and I decided to help [HKN](https://hkn.gtorg.gatech.edu/) automate its wire-production process for lab kits. Every semester, as part of a lab-packaging event, members cut and strip over 800 wires, which requires substantial time and effort.
 
+{% include figure.liquid loading="eager" path="assets/img/wire_bundle.jpg" class="img-fluid rounded z-depth-1" %}
+<div class="caption">
+    Sample wire-bundle. Contains pairs of 18" red, green, yellow, and black wires
+</div>
+
 ## System Design
 {% include figure.liquid loading="eager" path="assets/img/wire_cutter_machine_2.JPG" class="img-fluid rounded z-depth-1" %}
 
