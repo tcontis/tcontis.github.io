@@ -55,17 +55,66 @@ stateDiagram-v2
   [*] --> MENU
   MENU --> CUTTING_ONE:1️⃣
   CUTTING_ONE --> CUTTING_TWO:➡️
-  CUTTING_TWO --> MENU:➡️
+
+  state "SELECT Wire Length" as S1
+  state "SELECT L Notch Distance" as S2
+  state "SELECT R Notch Distance" as S3
+  state "SELECT Number of Wires" as S4
+  state "INCR setting" as SU
+  state "DECR setting" as SD
+
+  CUTTING_ONE --> S1:1️⃣
+  S1 --> CUTTING_ONE
+   CUTTING_ONE --> S2:2️⃣
+  S2 --> CUTTING_ONE
+   CUTTING_ONE --> S3:3️⃣
+  S3 --> CUTTING_ONE
+   CUTTING_ONE --> S4:4️⃣
+  S4 --> CUTTING_ONE
+    CUTTING_ONE --> SU: ⬆️
+  SU --> CUTTING_ONE
+    CUTTING_ONE --> SD
+  SD --> CUTTING_ONE: ⬇️
+
+  state "Cut/Notch Wires" as CUTTING_TWO
+  CUTTING_TWO --> MENU
   MENU --> SETTINGS_ONE:2️⃣
   SETTINGS_ONE --> MENU:⬅️
   SETTINGS_ONE --> SETTINGS_RESET:1️⃣
   SETTINGS_RESET --> SETTINGS_ONE
   SETTINGS_ONE --> SETTINGS_FEED:2️⃣
   SETTINGS_FEED --> SETTINGS_ONE:⬅️
+
+
+  state "Manually feed wire FWD" as SFA
+  SETTINGS_FEED --> SFA: ⬆️
+  SFA --> SETTINGS_FEED
+   state "Manually feed wire BWD" as SFB
+  SETTINGS_FEED --> SFB: ⬇️
+  SFB --> SETTINGS_FEED
+
   SETTINGS_ONE --> SETTINGS_GUIDE:3️⃣
   SETTINGS_GUIDE --> SETTINGS_ONE:⬅️
+    
+  state "Manually turn guide CW" as SGA
+  SETTINGS_GUIDE --> SGA: ⬆️
+  SGA --> SETTINGS_GUIDE
+   state "Manually turn guide CCW" as SGB
+  SETTINGS_GUIDE --> SGB: ⬇️
+  SGB --> SETTINGS_GUIDE
+
+
   SETTINGS_ONE --> SETTINGS_CUTTER:4️⃣
   SETTINGS_CUTTER --> SETTINGS_ONE:⬅️
+  
+   state "Manually open cutter" as SCA
+  SETTINGS_CUTTER --> SCA: ⬆️
+  SCA -->  SETTINGS_CUTTER
+   state "Manually close cutter" as SCB
+  SETTINGS_CUTTER --> SCB: ⬇️
+  SCB -->  SETTINGS_CUTTER
+
+
 ```
 ## Demo
 {% include video.liquid path="https://www.youtube.com/embed/ptiaEEuiNBE" class="img-fluid rounded z-depth-1" %}
