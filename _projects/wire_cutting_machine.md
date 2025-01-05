@@ -19,6 +19,14 @@ For our [ECE 4180 (Embedded Systems Design)](https://ece.gatech.edu/courses/ece4
 {% include figure.liquid loading="eager" path="assets/img/wire_cutter_machine_2.JPG" class="img-fluid rounded z-depth-1" %}
 
 ## Schematic & Components
+
+| Left aligned | Center aligned | Right aligned |
+| :----------- | :------------: | ------------: |
+| Left 1       |    center 1    |       right 1 |
+| Left 2       |    center 2    |       right 2 |
+| Left 3       |    center 3    |       right 3 |
+
+
 | Item                        | Quantity |
 |:----------------------------|:---------|
 | 12V DC Motor               | 1        |
