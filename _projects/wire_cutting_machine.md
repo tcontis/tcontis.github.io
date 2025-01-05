@@ -37,6 +37,14 @@ For our [ECE 4180 (Embedded Systems Design)](https://ece.gatech.edu/courses/ece4
 
 ## RTOS Threads
 
+| Thread | Sleep | Description |
+| :------ | :----- | :----------- |
+| `updateWireLeft()` | 1s | Update upper half of uLCD: wire left on spool
+| `updateBottomScreen()` | 100ms | Update lower half of uLCD: menus
+| `saveWireLeft()` | 1 min | Save wire left onto SD card
+| `heartbeat()` | 1s | Blink LED4
+| `main()` | 100 ms | Run BLE-based state machine
+
 ## State Machine
 ```mermaid
 ---
