@@ -172,7 +172,7 @@ stateDiagram-v2
 
 ## Code
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% include repository/repo.liquid repository=tcontis/Wire_Cutter_Machine %}
+  {% include repository/repo.liquid repository="tcontis/Wire_Cutter_Machine" %}
 </div>
 
 ## Demo
