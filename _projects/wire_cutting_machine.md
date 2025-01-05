@@ -24,19 +24,62 @@ The system works by unspooling wire into a Bowden extruder using a stepper motor
 
 ## Parts List
 
-| Item                        | Quantity |
-| :---------------------------- | :--------- |
-| 12V DC Motor               | 1        |
-| 2-Pole Stepper Motor       | 1        |
-| [A4988 Stepper Motor Driver](https://www.pololu.com/product/1182) | 1        |
-| [Dual H-Bridge Motor Driver](https://www.sparkfun.com/products/14451)                  | 1        |
-| [Hall Effect Wheel Encoder Kit](https://www.sparkfun.com/products/12629) | 1        |
-| [Hitec HS-422 Servo Motor](https://www.sparkfun.com/products/11884)                | 1        |
-| Limit Switches            | 2       |
-| [mBED LPC1768 Microcontroller](https://os.mbed.com/platforms/mbed-LPC1768/)              | 1        |
-| [microSD Card Reader](https://www.sparkfun.com/products/544)             | 1        |
-| [UART Bluefruit LE Module](https://www.adafruit.com/product/2479)      | 1        |
-| [uLCD-144-G2 GFX Display](https://www.sparkfun.com/products/11377)    | 1        |
+<table>
+  <tr>
+    <th>Category</th>
+    <th>Item</th>
+    <th>Quantity</th>
+  </tr>
+  <tr>
+    <td rowspan="3">Cutter</td>
+    <td><a href="https://www.sparkfun.com/products/11884">Hitec HS-422 Servo Motor</a></td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Limit Switches</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.sparkfun.com/products/14451">Dual H-Bridge Motor Driver</a></td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td rowspan="3">Feeding</td>
+    <td>2-Pole Stepper Motor</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.pololu.com/product/1182">A4988 Stepper Motor Driver</a></td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.sparkfun.com/products/12629">Hall-Effect Wheel Encoder Kit</a></td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td rowspan="1">Guiding</td>
+    <td><a href="https://www.sparkfun.com/products/11884">Hitec HS-422 Servo Motor</a></td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td rowspan="3">User Interface</td>
+    <td><a href="https://www.sparkfun.com/products/544">microSD Card Reader</a></td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.adafruit.com/product/2479">UART Bluefruit LE Module</a></td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.sparkfun.com/products/11377">uLCD-144-G2 GFX Display</a></td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td rowspan="1">Microcontroller</td>
+    <td><a href="https://os.mbed.com/platforms/mbed-LPC1768/">mBED LPC1768 Microcontroller</a></td>
+    <td>1</td>
+  </tr>
+</table>
 
 <p></p>
 
