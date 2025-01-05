@@ -38,6 +38,7 @@ The system works by unspooling wire into a Bowden extruder using a stepper motor
 | [UART Bluefruit LE Module](https://www.adafruit.com/product/2479)      | 1        |
 | [uLCD-144-G2 GFX Display](https://www.sparkfun.com/products/11377)    | 1        |
 
+<p></p>
 
 ## RTOS Threads
 
@@ -48,6 +49,8 @@ The system works by unspooling wire into a Bowden extruder using a stepper motor
 | `saveWireLeft()` | 1 min | Save wire left onto SD card
 | `heartbeat()` | 1s | Blink LED4. LED staying on/off indicates error
 | `main()` | 100 ms | Run BLE-based state machine
+
+<p></p>
 
 ## Bluetooth Control State Machine
 
