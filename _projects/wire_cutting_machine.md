@@ -6,6 +6,10 @@ img: assets/img/wire_cutter_machine_2.JPG
 importance: 1
 category: work
 related_publications: false
+mermaid:
+  enabled: true
+  zoomable: false
+pretty_table: true
 ---
 
 ## Motivation
@@ -16,14 +20,14 @@ For our [ECE 4180 (Embedded Systems Design)](https://ece.gatech.edu/courses/ece4
 
 ## Schematic & Components
 | Item                        | Quantity |
-|-----------------------------|----------|
+|:----------------------------|:---------|
 | 12V DC Motor               | 1        |
 | 2-Pole Stepper Motor       | 1        |
 | [A4988 Stepper Motor Driver](https://www.pololu.com/product/1182) | 1        |
 | [Dual H-Bridge Motor Driver](https://www.sparkfun.com/products/14451)                  | 1        |
 | Hall Effect Wheel Encoder  | 1        |
 | Limit Switches            | 2       |
-| [mBED LPC1768 Microccontroller](https://os.mbed.com/platforms/mbed-LPC1768/)              | 1        |
+| [mBED LPC1768 Microcontroller](https://os.mbed.com/platforms/mbed-LPC1768/)              | 1        |
 | [microSD Card Reader](https://www.sparkfun.com/products/544)             | 1        |
 | Servo Motor                | 1        |
 | UART Bluetooth Module      | 1        |
