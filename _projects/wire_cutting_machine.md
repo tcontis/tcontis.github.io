@@ -22,8 +22,13 @@ For our [ECE 4180 (Embedded Systems Design)](https://ece.gatech.edu/courses/ece4
     Sample wire-bundle. Contains pairs of 18" red, green, yellow, and black wires
 </div>
 
-## System Design
+## System Overview
 {% include figure.liquid loading="eager" path="assets/img/wire_cutter_machine_2.JPG" class="img-fluid rounded z-depth-1" %}
+
+<div class="caption">
+    From left to right: wire cutter with servo motor mechanism, guide tube and servo, stepper mottor with extruder, mBED and peripherals on breadboard, uLCD screen
+</div>
+
 
 The system works by unspooling wire into a Bowden extruder using a stepper motor. The wire is fed into a guide tube, which is taped to a servo motor. The servo motor can rotate such that the wire is fed into the notching or cutting part of the wire cutter. Finally, the wire cutter is attached to a DC motor via a wheel contraption. Two limit switches are in place to restrict the wire-cutter's motion.
 
@@ -89,6 +94,12 @@ The system works by unspooling wire into a Bowden extruder using a stepper motor
     <td><a href="https://os.mbed.com/platforms/mbed-LPC1768/">mBED LPC1768 Microcontroller</a></td>
     <td>1</td>
   </tr>
+  <tr>
+    <td rowspan="1">Power</td>
+    <td><a href="https://www.amazon.com/HiLetgo-Supply-Module-Prototype-Breadboard/dp/B00HJ6AE72">DC Barrel Jack to 3.3V, 5V Board</a></td>
+    <td>1</td>
+  </tr>
+  </tr>
 </table>
 
 <p></p>
@@ -110,6 +121,11 @@ The system works by unspooling wire into a Bowden extruder using a stepper motor
 Using the [Bluefruit LE Connect App](https://learn.adafruit.com/bluefruit-le-connect/ios-setup), the user is able to control the machine using arrow or number key input. Every key press provides serial data to the Bluefruit module, which triggers an interrupt handler that records the action.
 
 {% include figure.liquid loading="eager" path="assets/img/control_pad.png" class="img-fluid rounded z-depth-1" %}
+<div class="caption">
+  Control Pad on Bluefruit LE Connect App
+</div>
+
+
 
 A small LCD screen provides a menu interface allowing a user to intuitively toggle settings without the parsing hassle of text input. Below is a state diagram of the control flow:
 
