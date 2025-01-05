@@ -10,6 +10,8 @@ mermaid:
   enabled: true
   zoomable: false
 pretty_table: true
+toc:
+  beginning: true
 ---
 
 ## Motivation
@@ -120,12 +122,15 @@ stateDiagram-v2
    state "Manually close cutter" as SCB
   SETTINGS_CUTTER --> SCB: ⬇️
   SCB -->  SETTINGS_CUTTER
-
-
 ```
+
 ## Demo
 {% include video.liquid path="https://www.youtube.com/embed/ptiaEEuiNBE" class="img-fluid rounded z-depth-1" %}
 
-## Potential Improvements
-- Precision of about 0.2" for cuts and incisions
-- Trouble guiding wire perfectly to the cutter
+## Results & Potential Improvements
+Despite the smooth interface and sufficient precision of 0.2", the machine's servo guide and wire-cutting mechanisms suffer from issues.
+
+Firstly, the 3D-printed wheel attached to the DC motor shaft often comes loose in motion, despite using a wedge. Introducing a screw into the shaft could fix this.
+
+Secondly, the servo lacks precision and consistency when guiding the wire into the cutting or nothcing portions of the wire cutter. Mechanically, the tube requires better stabilization. On the software-side, the servo should use closed-loop control to ensure precision.
+
