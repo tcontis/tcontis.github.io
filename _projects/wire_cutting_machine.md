@@ -18,7 +18,9 @@ For our [ECE 4180 (Embedded Systems Design)](https://ece.gatech.edu/courses/ece4
 ## System Design
 {% include figure.liquid loading="eager" path="assets/img/wire_cutter_machine_2.JPG" class="img-fluid rounded z-depth-1" %}
 
-## Schematic & Components
+The system works by unspooling wire into a Bowden extruder using a stepper motor. The wire is fed into a guide tube, which is taped to a servo motor. The servo motor can rotate such that the wire is fed into the notching or cutting part of the wire cutter. Finally, the wire cutter is attached to a DC motor via a wheel contraption. Two limit switches are in place to restrict the wire-cutter's motion.
+
+## Parts List
 
 | Item                        | Quantity |
 | :---------------------------- | :--------- |
@@ -45,7 +47,12 @@ For our [ECE 4180 (Embedded Systems Design)](https://ece.gatech.edu/courses/ece4
 | `heartbeat()` | 1s | Blink LED4. LED staying on/off indicates error
 | `main()` | 100 ms | Run BLE-based state machine
 
-## State Machine
+## Bluetooth Control State Machine
+
+Using the [Bluefruit LE Connect App](https://learn.adafruit.com/bluefruit-le-connect/ios-setup), the user is able to control the machine using arrow or number key input. Every key press provides serial data to the Bluefruit module, which triggers an interrupt handler that records the action.
+
+A small LCD screen provides a menu interface allowing a user to intuitively toggle settings. Below is a state diagram of the control flow:
+
 ```mermaid
 ---
 title: Menu Flowchart
