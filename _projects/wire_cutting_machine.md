@@ -170,6 +170,11 @@ stateDiagram-v2
   SCB -->  SETTINGS_CUTTER
 ```
 
+## Code
+<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+  {% include repository/repo.liquid repository=tcontis/Wire_Cutter_Machine %}
+</div>
+
 ## Demo
 {% include video.liquid path="https://www.youtube.com/embed/ptiaEEuiNBE" class="img-fluid rounded z-depth-1" %}
 
