@@ -14,6 +14,25 @@ For our [ECE 4180 (Embedded Systems Design)](https://ece.gatech.edu/courses/ece4
 ## System Design
 {% include figure.liquid loading="eager" path="assets/img/wire_cutter_machine_2.JPG" class="img-fluid rounded z-depth-1" %}
 
+## Schematic & Components
+| Item                        | Quantity |
+|-----------------------------|----------|
+| 12V DC Motor               | 1        |
+| 2-Pole Stepper Motor       | 1        |
+| [A4988 Stepper Motor Driver](https://www.pololu.com/product/1182) | 1        |
+| [Dual H-Bridge Motor Driver](https://www.sparkfun.com/products/14451)                  | 1        |
+| Hall Effect Wheel Encoder  | 1        |
+| Limit Switches            | 2       |
+| [mBED LPC1768 Microccontroller](https://os.mbed.com/platforms/mbed-LPC1768/)              | 1        |
+| [microSD Card Reader](https://www.sparkfun.com/products/544)             | 1        |
+| Servo Motor                | 1        |
+| UART Bluetooth Module      | 1        |
+| [uLCD-144-G2 GFX Display](https://www.sparkfun.com/products/11377)    | 1        |
+
+
+## RTOS Threads
+
+## State Machine
 ```mermaid
 ---
 title: Menu Flowchart
