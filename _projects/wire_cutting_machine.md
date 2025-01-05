@@ -36,7 +36,7 @@ The system works by unspooling wire into a Bowden extruder using a stepper motor
     <td>1</td>
   </tr>
   <tr>
-    <td>Limit Switches</td>
+    <td><a href="https://www.sparkfun.com/products/13014">Limit Switches</a></td>
     <td>2</td>
   </tr>
   <tr>
@@ -44,14 +44,19 @@ The system works by unspooling wire into a Bowden extruder using a stepper motor
     <td>1</td>
   </tr>
   <tr>
-    <td rowspan="3">Feeding</td>
-    <td>2-Pole Stepper Motor</td>
+    <td rowspan="4">Feeding</td>
+    <td><a href="https://www.amazon.com/Jameco-Reliapro-1124142-Bipolar-Stepper/dp/B07F8YWMQQ">Bipolar Stepper Motor 4.5 VDC, 1500 mA</a></td>
     <td>1</td>
   </tr>
   <tr>
     <td><a href="https://www.pololu.com/product/1182">A4988 Stepper Motor Driver</a></td>
     <td>1</td>
   </tr>
+   <tr>
+    <td><a href="https://www.amazon.com/Redrex-Upgraded-Aluminum-Extruder-Creality/dp/B07DDGGN921182">Bowden Extruder</a></td>
+    <td>1</td>
+  </tr>
+  
   <tr>
     <td><a href="https://www.sparkfun.com/products/12629">Hall-Effect Wheel Encoder Kit</a></td>
     <td>1</td>
