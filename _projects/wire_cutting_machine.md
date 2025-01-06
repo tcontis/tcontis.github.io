@@ -17,7 +17,7 @@ toc:
 ## Motivation
 For our [ECE 4180 (Embedded Systems Design)](https://ece.gatech.edu/courses/ece4180) final project, two teammates and I decided to help [HKN](https://hkn.gtorg.gatech.edu/) automate its wire-production process for lab kits. Every semester, as part of a lab-packaging event, members cut and strip over 800 wires, which requires substantial time and effort.
 
-{% include figure.liquid loading="eager" path="assets/img/wire_bundle.jpg" class="img-fluid rounded mx-auto d-block z-depth-1" max-width="50%" %}
+{% include figure.liquid loading="eager" path="assets/img/wire_bundle.jpg" class="rounded mx-auto d-block z-depth-1" max-width="50%" %}
 <div class="caption">
     Sample wire-bundle. Contains pairs of 18" red, green, yellow, and black wires
 </div>
@@ -121,12 +121,10 @@ The system works by unspooling wire into a Bowden extruder using a stepper motor
 
 Using the [Bluefruit LE Connect App](https://learn.adafruit.com/bluefruit-le-connect/ios-setup), the user is able to control the machine using arrow or number key input. Every key press provides serial data to the Bluefruit module, which triggers an interrupt handler that records the action.
 
-{% include figure.liquid loading="eager" path="assets/img/control_pad.png" class="img-fluid rounded mx-auto d-block z-depth-1" max-width="50%" %}
+{% include figure.liquid loading="eager" path="assets/img/control_pad.png" class="rounded mx-auto d-block z-depth-1" max-width="50%" %}
 <div class="caption">
   Control Pad on Bluefruit LE Connect App
 </div>
-
-
 
 A small LCD screen provides a menu interface allowing a user to intuitively toggle settings without the parsing hassle of text input. Below is a state diagram of the control flow:
 
@@ -204,7 +202,7 @@ stateDiagram-v2
 </div>
 
 ## Demo
-{% include video.liquid path="https://www.youtube.com/embed/ptiaEEuiNBE" class="img-fluid rounded mx-auto d-block z-depth-1" min-width="50%" %}
+{% include video.liquid path="https://www.youtube.com/embed/ptiaEEuiNBE" class="rounded mx-auto d-block z-depth-1" min-width="50%" %}
 
 ## Results & Potential Improvements
 Despite the smooth interface and sufficient precision of 0.2", the machine's servo guide and wire-cutting mechanisms suffer from issues.
