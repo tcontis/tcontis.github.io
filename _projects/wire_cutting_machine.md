@@ -17,7 +17,7 @@ toc:
 ## Motivation
 For our [ECE 4180 (Embedded Systems Design)](https://ece.gatech.edu/courses/ece4180) final project, two teammates and I decided to help [HKN](https://hkn.gtorg.gatech.edu/) automate its wire-production process for lab kits. Every semester, as part of a lab-packaging event, members cut and strip over 800 wires, which requires substantial time and effort.
 
-{% include figure.liquid loading="eager" path="assets/img/wire_bundle.jpg" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid loading="eager" path="assets/img/wire_bundle.jpg" class="img-fluid rounded z-depth-1" max-width="75%" %}
 <div class="caption">
     Sample wire-bundle. Contains pairs of 18" red, green, yellow, and black wires
 </div>
@@ -98,7 +98,6 @@ The system works by unspooling wire into a Bowden extruder using a stepper motor
     <td rowspan="1">Power</td>
     <td><a href="https://www.amazon.com/HiLetgo-Supply-Module-Prototype-Breadboard/dp/B00HJ6AE72">DC Barrel Jack to 3.3V, 5V Board</a></td>
     <td>1</td>
-  </tr>
   </tr>
 </table>
 
@@ -197,7 +196,6 @@ stateDiagram-v2
   SETTINGS_CUTTER --> SCB: ⬇️
   SCB -->  SETTINGS_CUTTER
 ```
-
 ## Code
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
   {% include repository/repo.liquid repository="tcontis/Wire_Cutter_Machine" %}
