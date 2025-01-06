@@ -202,7 +202,7 @@ stateDiagram-v2
 </div>
 
 ## Demo
-{% include video.liquid path="https://www.youtube.com/embed/ptiaEEuiNBE" class="rounded mx-auto d-block z-depth-1" min-width="50%" %}
+{% include video.liquid path="https://www.youtube.com/embed/ptiaEEuiNBE" class="rounded mx-auto d-block z-depth-1" min-width="75%" %}
 
 ## Results & Potential Improvements
 Despite the smooth interface and sufficient precision of 0.2", the machine's servo guide and wire-cutting mechanisms suffer from issues.
