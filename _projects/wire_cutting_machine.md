@@ -212,6 +212,8 @@ stateDiagram-v2
   </iframe>
 </div>
 
+<p></p>
+
 ## Results & Potential Improvements
 Despite the smooth interface and sufficient precision of 0.2", the machine's servo guide and wire-cutting mechanisms suffer from issues.
 
