@@ -26,7 +26,7 @@ For our [ECE 4180 (Embedded Systems Design)](https://ece.gatech.edu/courses/ece4
 {% include figure.liquid loading="eager" path="assets/img/wire_cutter_machine_2.JPG" class="img-fluid rounded mx-auto d-block z-depth-1" %}
 
 <div class="caption">
-    From left to right: wire cutter with servo motor mechanism, guide tube and servo, stepper mottor with extruder, mBED and peripherals on breadboard, uLCD screen
+    From left to right: wire cutter with servo motor mechanism, guide tube and servo, stepper motor with extruder, mBED and peripherals on breadboard, uLCD screen
 </div>
 
 
@@ -219,5 +219,5 @@ Despite the smooth interface and sufficient precision of 0.2", the machine's ser
 
 Firstly, the 3D-printed wheel attached to the DC motor shaft often comes loose in motion, despite using a wedge. Introducing a screw into the shaft could fix this.
 
-Secondly, the servo lacks precision and consistency when guiding the wire into the cutting or nothcing portions of the wire cutter. Mechanically, the tube requires better stabilization. On the software-side, the servo should use closed-loop control to ensure precision.
+Secondly, the servo lacks precision and consistency when guiding the wire into the cutting or notching portions of the wire cutter. Mechanically, the tube requires better stabilization. On the software-side, the servo should use closed-loop control to ensure precision.
 
