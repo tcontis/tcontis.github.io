@@ -34,12 +34,14 @@ The system works by unspooling wire into a Bowden extruder using a stepper motor
 
 ## Parts List
 
-<table>
+<table class="table table-sm">
+  <thead>
   <tr>
     <th>Category</th>
     <th>Item</th>
     <th>Quantity</th>
   </tr>
+  </thead>
   <tr>
     <td rowspan="3">Cutter</td>
     <td><a href="https://www.sparkfun.com/products/11884">Hitec HS-422 Servo Motor</a></td>
