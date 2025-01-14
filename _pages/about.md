@@ -14,10 +14,10 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Having recently graduated with my <strong>MS in Electrical and Computer Engineering</strong> from <a href='https://ece.gatech.edu'>Georgia Tech</a>, I'm on the hunt for my next opportunity in <strong>embedded systems/firmware engineering</strong> where I can <strong>innovate</strong> and make a <strong>positive impact</strong> on the world. 
+Having recently graduated with my <strong>MS in Electrical and Computer Engineering</strong> from Georgia Tech, I'm on the hunt for my next opportunity in <strong>embedded systems/firmware engineering</strong> where I can <strong>innovate</strong> and make a <strong>positive impact</strong> on the world. 
 
-These past few years, I've had the privilege of developing my skills in <strong>firmware development</strong> and <strong>signal processing</strong> through some <strong>amazing opportunities</strong>, including: 
-  - Developing fall-detection capabilities for a startup's industrial safety wearable 
-  - Mentoring students in embedded controls as a three-time Graduate Teaching Assistant
-  - Collaborating with friends to prototype a wire-cutting machine in three weeks
+These past few years, I've had the privilege of developing my skills in <strong>firmware development</strong> and <strong>signal processing</strong> through some amazing opportunities, including: 
+  - Developing fall-detection capabilities for a <a href="https://slatesafety.com/products/band-v2/">startup's industrial safety wearable</a> 
+  - Mentoring students in embedded controls as a <a href="https://www.flickr.com/photos/georgiatechece/53672014065/in/album-72177720316390187">three-time Graduate Teaching Assistant</a>
+  - Collaborating with friends to prototype a <a href="https://thomascontis.com/projects/wire_cutting_machine/">wire-cutting machine in three weeks</a>
 
